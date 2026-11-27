@@ -1,0 +1,7 @@
+[project]
+name = "keytoxbox"
+version = "0.1.0"
+requires-python = ">=3.10"
+
+[tool.pyside6-project]
+files = ["main.py", "engine.py", "overlay.py", "resources/ui/main.ui", "resources/styles/app.qss"]

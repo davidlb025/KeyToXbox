@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0"><class>Shell</class><widget class="QMainWindow" name="Shell"><property name="windowTitle"><string>KeyToXbox</string></property><widget class="QWidget" name="centralwidget"><layout class="QVBoxLayout" name="rootLayout"><property name="leftMargin"><number>0</number></property><property name="topMargin"><number>0</number></property><property name="rightMargin"><number>0</number></property><property name="bottomMargin"><number>0</number></property></layout></widget></widget><resources/><connections/></ui>
