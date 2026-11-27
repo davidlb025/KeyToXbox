@@ -106,7 +106,7 @@ class App:
         art = ControllerArt(); art.setMinimumHeight(170); art.setMaximumHeight(190); el.addWidget(art)
         sub = QHBoxLayout(); sub.addWidget(self.label('Asignaciones','section')); sub.addStretch(); sub.addWidget(self.button('Restablecer',self.reset)); el.addLayout(sub)
         el.addWidget(self.label('Haz clic en una tecla para cambiarla. Esc cancela; Supr borra.','muted'))
-        groups = [('Acciones',[('A','A'),('B','B'),('X','X'),('Y','Y'),('LB','LB'),('RB','RB'),('LT','LT'),('RT','RT')]),('Navegación',[('Vista','BACK'),('Menú','START'),('Clic izquierdo','LS'),('Clic derecho','RS'),('Cruceta ↑','DU'),('Cruceta ↓','DD'),('Cruceta ←','DL'),('Cruceta →','DR')]),('Joysticks',[('Izquierdo ↑','LU'),('Izquierdo ↓','LD'),('Izquierdo ←','LL'),('Izquierdo →','LR'),('Derecho ↑','RU'),('Derecho ↓','RD'),('Derecho ←','RL'),('Derecho →','RR')])]
+        groups = [('Acciones',[('A','A'),('B','B'),('X','X'),('Y','Y'),('LB','LB'),('RB','RB'),('LT','LT'),('RT','RT')]),('Navegación',[('Vista','BACK'),('Menú','START'),('Cruceta ↑','DU'),('Cruceta ↓','DD'),('Cruceta ←','DL'),('Cruceta →','DR')]),('Joysticks',[('L3 · pulsar stick izq.','LS'),('R3 · pulsar stick der.','RS'),('Izquierdo ↑','LU'),('Izquierdo ↓','LD'),('Izquierdo ←','LL'),('Izquierdo →','LR'),('Derecho ↑','RU'),('Derecho ↓','RD'),('Derecho ←','RL'),('Derecho →','RR')])]
         self.display_names = {name:display for _,items in groups for display,name in items}
         self.tabs = QTabWidget()
         for heading,items in groups:

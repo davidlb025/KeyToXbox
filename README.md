@@ -30,7 +30,7 @@ También puedes abrir `Iniciar.bat` si el entorno `.venv` ya está preparado.
 
 ## Uso
 
-Haz clic en una asignación para cambiarla. Pulsa **Esc** para cancelar o **Supr** para borrarla. Los atajos **F8** y **F9** están reservados.
+Haz clic en una asignación para cambiarla. En la pestaña **Joysticks**, configura **L3 · pulsar stick izq.** y **R3 · pulsar stick der.** como botones pulsables del stick. Pulsa **Esc** para cancelar o **Supr** para borrarla. Los atajos **F8** y **F9** están reservados.
 
 Elige **Teclas** o **Ratón** para cada joystick. Si usas el ratón, F8 lo captura y oculta el cursor; al pausar, restaura su posición. La captura se pausa si cambias a otra ventana. Vuelve al juego y pulsa F8 para capturarlo de nuevo.
 
